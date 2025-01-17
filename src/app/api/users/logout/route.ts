@@ -1,3 +1,4 @@
+'use server'
 import { connect } from "@/dbConfig/dbconfig";
 import {  NextResponse } from "next/server";
 
