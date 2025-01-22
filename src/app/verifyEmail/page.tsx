@@ -10,7 +10,7 @@ export default function VerifyEmail() {
 
   const verifyUserEmail = async () => {
     try {
-      const req = await fetch("/api/users/verifyemail", {
+      const req = await fetch("/api/users/verifyEmail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ token }),
