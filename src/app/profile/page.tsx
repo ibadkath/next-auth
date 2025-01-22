@@ -9,7 +9,7 @@ export default function Profile() {
 
   const GetUserDetails = async () => {
     try {
-      const req = await fetch("/api/users/aboutMe");
+      const req = await fetch("/api/users/aboutme");
       const res = await req.json();
       console.log(res.data);
       setData(res.data.username);
