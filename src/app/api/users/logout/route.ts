@@ -1,4 +1,6 @@
-'use server'
+
+export const dynamic = "force-dynamic"; // Force the route to be dynamic
+
 import { connect } from "@/dbConfig/dbconfig";
 import {  NextResponse } from "next/server";
 
